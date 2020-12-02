@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<title>Dash - Group 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.solidbackgrounds.com/images/2560x1600/2560x1600-pastel-yellow-solid-color-background.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- carly -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-white">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-blue">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-blue">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-blue">SHOP</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-blue">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-blue" style="font-size:60px">Dash<br>In The Carribean</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-blue">Shop Now!</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- MARIEL -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT US</span></h5>
+    <p>DASH was started by a single mother who wanted to use her skills to help others with her daughter.</p>
+      <p>She has been donating school supplies and other resources on her own to the Caribbean.</p>
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+  </div>
+</div>
+
+
+<!-- FRANCESCA -->
+<div class="w3-container" id="shop">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SHOP</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Earrings');" id="myLink">
+        <div class="w3-col s6 tablink">Earrings</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Bracelets');">
+        <div class="w3-col s6 tablink">Bracelets</div>
+      </a>
+    </div>
+
+    <div id="Earrings" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Red Triangle Earrings</h5>
+      <a href="https://ibb.co/dmZYWy6"><img src="https://i.ibb.co/2ZJ4nBP/Redearrings.jpg" alt="Redearrings" border="0"></a>
+      <p class="w3-text-grey">$10</p><br>
+    
+      <h5>Yellow, Green, and Blue Hoops</h5>
+      <a href="https://ibb.co/k2yxpCw"><img src="https://i.ibb.co/9HvNJ51/Screen-Shot-2020-12-01-at-3-44-38-PM.png" alt="Screen-Shot-2020-12-01-at-3-44-38-PM" border="0"></a>
+      <p class="w3-text-grey">$8</p><br>
+    
+      <h5>Blue, Yellow, White, and Black Hoops</h5>
+      <a href="https://ibb.co/3Rx4g7t"><img src="https://i.ibb.co/vXNV0H2/20200810-192722.jpg" alt="20200810-192722" border="0"></a>
+      <p class="w3-text-grey">$8</p><br>
+    
+      <h5>Yellow, Green, and Black Hoops</h5>
+      <a href="https://ibb.co/F3sckV9"><img src="https://i.ibb.co/sR5cpHh/Screen-Shot-2020-12-01-at-3-45-51-PM.png" alt="Screen-Shot-2020-12-01-at-3-45-51-PM" border="0"></a>
+      <p class="w3-text-grey">$8</p><br>
+    
+      <h5>Red, Green, and Yellow Hoops</h5>
+      <a href="https://ibb.co/wYZtcj8"><img src="https://i.ibb.co/BwHknFv/Screen-Shot-2020-12-01-at-3-49-04-PM.png" alt="Screen-Shot-2020-12-01-at-3-49-04-PM" border="0"></a>
+      <p class="w3-text-grey">$8</p>
+      
+      <h5>Multicolor Dangle</h5>
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/S5Q5KTr/Screen-Shot-2020-12-01-at-3-47-42-PM.png" alt="Screen-Shot-2020-12-01-at-3-47-42-PM" border="0"></a>
+      <p class="w3-text-grey">$12</p><br>
+      
+      
+    </div>
+
+    <div id="Bracelets" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Yellow, Red, and Green Pattern</h5>
+      <a href="https://ibb.co/1Z1Vcdq"><img src="https://i.ibb.co/WnZ9CPy/Screen-Shot-2020-12-01-at-3-52-26-PM.png" alt="Screen-Shot-2020-12-01-at-3-52-26-PM" border="0"></a>
+      <p class="w3-text-grey">$12</p><br>
+    
+      <h5>Multicolor Plain Pattern</h5>
+      <a href="https://ibb.co/550THJw"><img src="https://i.ibb.co/3031ZPQ/Screen-Shot-2020-12-01-at-3-56-43-PM.png" alt="Screen-Shot-2020-12-01-at-3-56-43-PM" border="0"></a>
+      <p class="w3-text-grey">$10</p><br>
+    
+      <h5>One Strand Color</h5>
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/cx4pKPY/Screen-Shot-2020-12-01-at-3-58-03-PM.png" alt="Screen-Shot-2020-12-01-at-3-58-03-PM" border="0"></a>
+      <p class="w3-text-grey">$8</p><br>
+   
+    
+    </div>  
+    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+
+
+<!-- JOEY -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT US</span></h5>
+    <p>Email us at customersupport@dash.com.</p>
+    
+    <p><strong>Ask a question</strong> about a product, request a custom item, or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Created by Carly, Joey, Francesca, Mariel, and Maksym</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
+
+
+
